@@ -14,6 +14,8 @@
 			<Item Name="DHT12.vi" Type="VI" URL="../ENV HAT/DHT12.vi"/>
 		</Item>
 		<Item Name="LED Test.vi" Type="VI" URL="../LED Test.vi"/>
+		<Item Name="lv_dht12.lvlib" Type="Library" URL="../../lv_dht12/lv_dht12.lvlib"/>
+		<Item Name="lv_i2c_linx.lvlib" Type="Library" URL="../../lv_i2c_linx/lv_i2c_linx.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -55,6 +57,7 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="../../lv_i2c_hal/lv_i2c_hal.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
