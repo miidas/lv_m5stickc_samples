@@ -14,8 +14,8 @@
 			<Item Name="DHT12.vi" Type="VI" URL="../ENV HAT/DHT12.vi"/>
 		</Item>
 		<Item Name="LED Test.vi" Type="VI" URL="../LED Test.vi"/>
-		<Item Name="lv_dht12.lvlib" Type="Library" URL="../../lv_dht12/lv_dht12.lvlib"/>
-		<Item Name="lv_i2c_linx.lvlib" Type="Library" URL="../../lv_i2c_linx/lv_i2c_linx.lvlib"/>
+		<Item Name="lv_dht12.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_dht12/lv_dht12.lvlib"/>
+		<Item Name="lv_i2c_linx.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_i2c_linx/lv_i2c_linx.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -40,6 +40,8 @@
 				<Item Name="liblinxdevice.dll" Type="Document" URL="/&lt;vilib&gt;/MakerHub/LINX/Resources/liblinxdevice.dll"/>
 				<Item Name="LMH-LINX.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/LINX/LMH-LINX.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_i2c_hal/lv_i2c_hal.lvlib"/>
+				<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_dht12/lv_i2c_hal.lvlib"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
@@ -57,7 +59,10 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="../../lv_i2c_hal/lv_i2c_hal.lvlib"/>
+			<Item Name="Close.vi" Type="VI" URL="../../lv_i2c_linx/LINX I2C/Close.vi"/>
+			<Item Name="DHT12 Read.vi" Type="VI" URL="../../lv_dht12/DHT12 Read.vi"/>
+			<Item Name="LINX I2C.lvclass" Type="LVClass" URL="../../lv_i2c_linx/LINX I2C/LINX I2C.lvclass"/>
+			<Item Name="Open.vi" Type="VI" URL="../../lv_i2c_linx/LINX I2C/Open.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
